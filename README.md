@@ -17,7 +17,7 @@ make
 ./testserver
 ```
 **测试结果：**
-![image.png](https://github.com/Sadirry/ChatServer/figure/muduo.png)
+![image.png](https://github.com/Sadirry/ChatServer/blob/main/figure/muduo.png)
 
 ### MySQL数据库：
 **安装：**
@@ -37,7 +37,7 @@ GRANT ALL PRIVILEGES ON chat.* TO 'violet'@'%';
 FLUSH PRIVILEGES;
 ```
 验证MySQL数据表：
-![image.png](https://github.com/Sadirry/ChatServer/figure/mysql.png)
+![image.png](https://github.com/Sadirry/ChatServer/blob/main/figure/mysql.png)
 
 ### Nginx负载均衡：
 利用压缩包进行安装配置：
@@ -101,8 +101,8 @@ bash autobulid.sh
 ## 效果展示：
 **TCP负载均衡：**
 启动两个客户端，分别连接在不同的服务器程序上。
-![image.png](https://github.com/Sadirry/ChatServer/figure/test1.png)
-![image.png](https://github.com/Sadirry/ChatServer/figure/test2.png)
+![image.png](https://github.com/Sadirry/ChatServer/blob/main/figure/test1.png)
+![image.png](https://github.com/Sadirry/ChatServer/blob/main/figure/test2.png)
 
 **Redis跨服务器通信：**
-![image.png](https://github.com/Sadirry/ChatServer/figure/test3.png)
+![image.png](https://github.com/Sadirry/ChatServer/blob/main/figure/test3.png)
