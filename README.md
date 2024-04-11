@@ -39,6 +39,7 @@ GRANT ALL PRIVILEGES ON chat.* TO 'violet'@'%';
 FLUSH PRIVILEGES;
 ```
 验证MySQL数据表：
+
 <img src="https://github.com/Sadirry/ChatServer/blob/main/figure/mysql.png" width="50%">
 
 
