@@ -5,12 +5,14 @@
 
 ## 部署：
 ### Muduo网络库：
-**安装：**切换到Muduo文件夹下，执行`depoly_muduo.sh`脚本一键安装
+**安装：**
+切换到Muduo文件夹下，执行`depoly_muduo.sh`脚本一键安装
 ```bash
 cd Muduo/
 sudo depoly_muduo.sh
 ```
-**测试：**切换到Muduo/example/文件夹下，执行`make`生成`testserver`可执行文件
+**测试：**
+切换到Muduo/example/文件夹下，执行`make`生成`testserver`可执行文件
 ```bash
 cd Muduo/example/
 make
@@ -37,7 +39,8 @@ GRANT ALL PRIVILEGES ON chat.* TO 'violet'@'%';
 FLUSH PRIVILEGES;
 ```
 验证MySQL数据表：
-![image.png](https://github.com/Sadirry/ChatServer/blob/main/figure/mysql.png)
+<img src="https://github.com/Sadirry/ChatServer/blob/main/figure/mysql.png" width="50%">
+
 
 ### Nginx负载均衡：
 利用压缩包进行安装配置：
