@@ -1,7 +1,7 @@
 # ChatServer
 - 基于重构Muduo网络库
 - 集群聊天服务器和客户端
-- 利用在nginx实现tcp负载均衡，redis发布-订阅模式
+- 利用Nginx实现TCP负载均衡，Redis中间件发布-订阅模式
 
 ## 部署：
 ### Muduo网络库：
