@@ -1,7 +1,9 @@
 # ChatServer
-- 基于重构Muduo网络库
-- 集群聊天服务器和客户端
-- 利用Nginx实现TCP负载均衡，Redis中间件发布-订阅模式
+- 基于重构**Muduo网络库**开发的集群式聊天服务器，支持客户端跨服务器通信
+- **Json**序列化和反序列化
+- 利用**Nginx**实现服务端的TCP负载均衡
+- 利用**Redis**中间件的发布-订阅模式实现多服务器间信息交互
+- 连接**MySQL**数据库、利用**CMake**构建编译环境
 
 ## 部署：
 ### Muduo网络库：
@@ -19,7 +21,7 @@ make
 ./testserver
 ```
 **测试结果：**
-![image.png](https://github.com/Sadirry/ChatServer/tree/main/figure/muduo.png)
+![image](./figure/muduo.png)
 
 ### MySQL数据库：
 **安装：**
@@ -40,7 +42,7 @@ FLUSH PRIVILEGES;
 ```
 验证MySQL数据表：
 
-<img src="https://github.com/Sadirry/ChatServer/tree/main/figure/mysql.png" width="50%">
+<img src="./figure/mysql.png" width="50%">
 
 
 ### Nginx负载均衡：
@@ -105,8 +107,8 @@ bash autobulid.sh
 ## 效果展示：
 **TCP负载均衡：**
 启动两个客户端，分别连接在不同的服务器程序上。
-![image.png](https://github.com/Sadirry/ChatServer/tree/main/figure/test1.png)
-![image.png](https://github.com/Sadirry/ChatServer/tree/main/figure/test2.png)
+![image](./figure/test1.png)
+![image](./figure/test2.png)
 
 **Redis跨服务器通信：**
-![image.png](https://github.com/Sadirry/ChatServer/tree/main/figure/test3.png)
+![image](./figure/test3.png)
