@@ -11,7 +11,7 @@
 切换到Muduo文件夹下，执行`depoly_muduo.sh`脚本一键安装
 ```bash
 cd Muduo/
-sudo depoly_muduo.sh
+sudo bash depoly_muduo.sh
 ```
 **测试：**
 切换到Muduo/example/文件夹下，执行`make`生成`testserver`可执行文件
