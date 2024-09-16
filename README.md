@@ -100,7 +100,7 @@ sudo ldconfig /usr/local/lib
 bash autobulid.sh
 ```
 执行服务器程序：
-`./ChatClient 127.0.0.1 6000`  `./ChatClient 127.0.0.1 6002`
+`./ChatServer 127.0.0.1 6000`  `./ChatServer 127.0.0.1 6002`
 执行客户端程序：
 `./ChatClient 127.0.0.1 8000`
 
